@@ -1,6 +1,7 @@
 import React from "react";
-import { AiFillLinkedin, AiOutlineFilePdf, AiFillGithub } from "react-icons/ai";
-import { BsFillPersonFill } from "react-icons/bs";
+import { AiFillHome , AiFillFolderOpen, AiTwotonePhone,AiFillTool, AiFillRead } from "react-icons/ai";
+import { FcSupport,FcReading, FcCommandLine, FcCellPhone, FcDepartment  } from "react-icons/fc";
+
 // import resumePDF from "../components/resume.pdf"
 
 const SlideBar = () => {
@@ -9,7 +10,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <>
-          Home<AiFillLinkedin size={30} className="cursor-pointer " /> 
+          Home<FcDepartment size={30} className="cursor-pointer " /> 
         </>
       ),
       href: "https://linkedin.com/in/ricardo-andrés-yépez-valenzuela-661915263",
@@ -18,7 +19,7 @@ const SlideBar = () => {
       id: 2,
       child: (
         <>
-          Studies <AiFillGithub size={30} />
+          Studies <FcReading size={30}  className="cursor-pointer "/>
         </>
       ),
       href: "https://github.com/andresquito",
@@ -27,7 +28,7 @@ const SlideBar = () => {
       id: 3,
       child: (
         <>
-          Experience <BsFillPersonFill size={30} />
+          Experience <FcSupport size={30} className="cursor-pointer " />
         </>
       ),
       href: "mailto:ricardoandres1@hotmail.com",
@@ -36,7 +37,7 @@ const SlideBar = () => {
       id: 4,
       child: (
         <>
-          Projects <AiOutlineFilePdf size={30} />
+          Projects <FcCommandLine size={30} />
         </>
       ),
       href: "/",
@@ -47,7 +48,7 @@ const SlideBar = () => {
       id: 5,
       child: (
         <>
-          Contact <AiOutlineFilePdf size={30} />
+          Contact <FcCellPhone  size={30} />
         </>
       ),
       href: "/",
@@ -57,7 +58,7 @@ const SlideBar = () => {
   ];
 
   return (
-    <div className="flex right-0  items-left gap-2 justify-evenly fixed top-2 p-4 flex-col">
+    <div className="flex right-0  items-left  justify-evenly fixed top-2 p-4 flex-col">
       {links.map(({ id, child, href, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
