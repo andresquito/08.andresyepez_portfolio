@@ -9,7 +9,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <>
-          Linkedin <AiFillLinkedin size={30} className="cursor-pointer" />
+          Home <AiFillLinkedin size={30} className="cursor-pointer" />
         </>
       ),
       href: "https://linkedin.com/in/ricardo-andrés-yépez-valenzuela-661915263",
@@ -18,7 +18,7 @@ const SlideBar = () => {
       id: 2,
       child: (
         <>
-          GitHub <AiFillGithub size={30} />
+          Studies <AiFillGithub size={30} />
         </>
       ),
       href: "https://github.com/andresquito",
@@ -27,7 +27,7 @@ const SlideBar = () => {
       id: 3,
       child: (
         <>
-          Mail <BsFillPersonFill size={30} />
+          Experience <BsFillPersonFill size={30} />
         </>
       ),
       href: "mailto:ricardoandres1@hotmail.com",
@@ -36,7 +36,18 @@ const SlideBar = () => {
       id: 4,
       child: (
         <>
-          Resume <AiOutlineFilePdf size={30} />
+          Projects <AiOutlineFilePdf size={30} />
+        </>
+      ),
+      href: "/",
+      style: "rounded-br-md",
+      download: true,
+    },
+    {
+      id: 5,
+      child: (
+        <>
+          Contact <AiOutlineFilePdf size={30} />
         </>
       ),
       href: "/",
