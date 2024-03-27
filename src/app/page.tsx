@@ -7,7 +7,7 @@ export default function Home() {
     <main className="h-screen bg-orange-300">
       {/* home */}
       <div
-        className="bg-green-200 h-full flex bg-cover bg-center pr-10 pl-10 md:pl-20 md:pr-40 lg:pl-40 lg:pr-80"
+        className="bg-green-200 h-full flex bg-cover bg-center pr-3 pl-3 md:pl-20 md:pr-40 lg:pl-40 lg:pr-80"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="flex flex-col  ">
@@ -20,10 +20,10 @@ export default function Home() {
           <h1 className="text-[40px] text-white font-semibold ">
             Andres Yepez
           </h1>
-          <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[40px] font-bold pb-10">
+          <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[40px] font-bold pb-3">
             Sofware develoment
           </h2>
-          <p className="text-white pb-10">
+          <p className="text-white pb-3">
             Passionate and highly motivated in the field of software
             development, knowledge of Html, Css, JavaScript, TypeScript, React,
             Next.js, Node.js, Mongo, Express, SQL,Tailwind, Git, GitHub and
