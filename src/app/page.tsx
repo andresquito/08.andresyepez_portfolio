@@ -15,12 +15,12 @@ export default function Home() {
             src="/andres5.png"
             //voltear imagen
             style={{ transform: "scalex(-1)" }}
-            className="left-20 w-60 rounded-full md:pt-40 md:left-40"
+            className="left-20 w-40 rounded-full md:pt-40 md:left-40"
           />
-          <h1 className="text-[40px] text-white font-semibold ">
-            Andres Ye-ppez
+          <h1 className="text-[20px] text-white font-semibold ">
+            Andres Yepez
           </h1>
-          <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[40px] font-bold pb-3">
+          <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[30px] font-bold pb-3">
             Sofware develoment
           </h2>
           <p className="text-white pb-3">
@@ -29,30 +29,30 @@ export default function Home() {
             Next.js, Node.js, Mongo, Express, SQL,Tailwind, Git, GitHub and
             Agile Methodologies.
           </p>
-          <div className="text-white flex flex-wrap text-center gap-5  md:flex-row">
+          <div className="text-white flex flex-wrap text-center gap-3  md:flex-row">
             <Link
               href="/nav"
-              className="bg-blue-500 w-30 py-1 px-3 rounded-2xl hover:bg-blue-400"
+              className="bg-blue-500 w-30 py-1 px-3 rounded-xl hover:bg-blue-400"
             >
               Studies
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-30 py-1 px-3 rounded-2xl hover:bg-blue-400"
+              className="bg-blue-500 w-30 py-1 px-3 rounded-xl hover:bg-blue-400"
             >
-              Experienc1
+              Experience
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-30 rounded-2xl py-1 px-3 hover:bg-blue-400"
+              className="bg-blue-500 w-30 rounded-xl py-1 px-3 hover:bg-blue-400"
             >
               Projects
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-30 py-1 px-3 rounded-2xl hover:bg-blue-400"
+              className="bg-blue-500 w-30 py-1 px-3 rounded-xl hover:bg-blue-400"
             >
-              Contact me
+              Contact 
             </Link>
           </div>
         </div>
