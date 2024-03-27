@@ -15,7 +15,7 @@ export default function Home() {
             src="/andres5.png"
             //voltear imagen
             style={{ transform: "scalex(-1)" }}
-            className="left-20 w-30 rounded-full pt-10 md:pt-40 md:left-40"
+            className="left-20 w-20 rounded-full pt-10  md:pt-40 md:left-40"
           />
           <h1 className="text-[20px] text-white font-semibold ">
             Andres Yepez
