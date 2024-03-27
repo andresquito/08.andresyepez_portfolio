@@ -15,7 +15,7 @@ export default function Home() {
             src="/andres5.png"
             //voltear imagen
             style={{ transform: "scalex(-1)" }}
-            className=" w-40 rounded-full pt-10 pb-10 md:pt-40 md:left-40"
+            className=" w-40 rounded-full pt-10 pb-5 sm:w-60 md:pt-40 md:left-40"
           />
           <h1 className="text-[20px] text-white font-semibold ">
             Andres Yepez
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </div>
       {/* images, flip */}
-      <div>
+      {/* <div>
         <img
           src="/stars.png"
           alt="cliff"
@@ -81,7 +81,7 @@ export default function Home() {
           width={2000}
           className="md:absolute bottom-20 right-0 w-full lg:hidden "
         />
-      </div>
+      </div> */}
     </main>
   );
 }
