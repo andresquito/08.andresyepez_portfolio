@@ -15,10 +15,10 @@ export default function Home() {
             src="/andres5.png"
             //voltear imagen
             style={{ transform: "scalex(-1)" }}
-            className="left-20 w-40 rounded-full md:pt-40 md:left-40"
+            className="left-20 w-60 rounded-full md:pt-40 md:left-40"
           />
           <h1 className="text-[40px] text-white font-semibold ">
-            Andres Yepez
+            Andres Ye-ppez
           </h1>
           <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[40px] font-bold pb-3">
             Sofware develoment
@@ -32,25 +32,25 @@ export default function Home() {
           <div className="text-white flex flex-wrap text-center gap-5  md:flex-row">
             <Link
               href="/nav"
-              className="bg-blue-500 w-40 py-3 px-5 rounded-2xl hover:bg-blue-400"
+              className="bg-blue-500 w-30 py-1 px-3 rounded-2xl hover:bg-blue-400"
             >
               Studies
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-40 py-3 px-5 rounded-2xl hover:bg-blue-400"
+              className="bg-blue-500 w-30 py-1 px-3 rounded-2xl hover:bg-blue-400"
             >
-              Experience
+              Experienc1
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-40 rounded-2xl py-3 px-5 hover:bg-blue-400"
+              className="bg-blue-500 w-30 rounded-2xl py-1 px-3 hover:bg-blue-400"
             >
-              My projects
+              Projects
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-40 py-3 px-5 rounded-2xl hover:bg-blue-400"
+              className="bg-blue-500 w-30 py-1 px-3 rounded-2xl hover:bg-blue-400"
             >
               Contact me
             </Link>
