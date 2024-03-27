@@ -9,7 +9,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <>
-          Home <AiFillLinkedin size={30} className="cursor-pointer" />
+          <AiFillLinkedin size={30} className="cursor-pointer " /> Home
         </>
       ),
       href: "https://linkedin.com/in/ricardo-andrés-yépez-valenzuela-661915263",
@@ -57,7 +57,7 @@ const SlideBar = () => {
   ];
 
   return (
-    <div className="flex right-10 items-end gap-3 justify-evenly fixed top-2 p-4 flex-col">
+    <div className="flex right-10  items-left gap-3 justify-evenly fixed top-2 p-4 flex-col">
       {links.map(({ id, child, href, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
