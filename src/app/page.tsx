@@ -32,25 +32,25 @@ export default function Home() {
           <div className="text-white flex flex-wrap text-center justify-center gap-5  md:flex-row lg:justify-end">
             <Link
               href="/nav"
-              className="bg-blue-500 w-40 py-1 px-3 rounded-xl hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5"
+              className="bg-blue-500 w-35 py-1 px-3 rounded-xl hover:bg-blue-400 sm:w-40 lg:w-60 lg:py-3 lg:px-5"
             >
               Studies
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-40 py-1 px-3 rounded-xl hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5"
+              className="bg-blue-500 w-35 py-1 px-3 rounded-xl hover:bg-blue-400 sm:w-40 file:lg:w-60 lg:py-3 lg:px-5"
             >
               Experience
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-40 rounded-xl py-1 px-3 hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5"
+              className="bg-blue-500 w-35 rounded-xl py-1 px-3 hover:bg-blue-400 sm:w-40 lg:w-60 lg:py-3 lg:px-5"
             >
               Projects
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-40 py-1 px-3 rounded-xl hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5" 
+              className="bg-blue-500 w-35 py-1 px-3 rounded-xl hover:bg-blue-400 sm:w-40 lg:w-60 lg:py-3 lg:px-5" 
             >
               Contact 
             </Link>
