@@ -10,12 +10,12 @@ export default function Home() {
         className="bg-green-200 h-full flex bg-cover bg-center text-center pr-3 pl-3 md:pl-20 md:pr-40 lg:pl-40 lg:pr-80"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="flex flex-col  ">
+        <div className="flex flex-col items-center ">
           <img
             src="/andres5.png"
             //voltear imagen
             style={{ transform: "scalex(-1)" }}
-            className="left-20 w-20 rounded-full pt-10  md:pt-40 md:left-40"
+            className=" w-40 rounded-full pt-10 pb-10 md:pt-40 md:left-40"
           />
           <h1 className="text-[20px] text-white font-semibold ">
             Andres Yepez
@@ -29,7 +29,7 @@ export default function Home() {
             Next.js, Node.js, Mongo, Express, SQL,Tailwind, Git, GitHub and
             Agile Methodologies.
           </p>
-          <div className="text-white flex flex-wrap text-center justify-center gap-3  md:flex-row">
+          <div className="text-white flex flex-wrap text-center justify-center gap-5  md:flex-row">
             <Link
               href="/nav"
               className="bg-blue-500 w-30 py-1 px-3 rounded-xl hover:bg-blue-400"
