@@ -18,7 +18,7 @@ export default function Home() {
             className="left-20 w-40 rounded-full md:pt-40 md:left-40"
           />
           <h1 className="text-[40px] text-white font-semibold ">
-            Andrés Yépez
+            Andres Yepez
           </h1>
           <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[40px] font-bold pb-10">
             Sofware develoment
