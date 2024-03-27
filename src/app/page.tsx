@@ -7,50 +7,50 @@ export default function Home() {
     <main className="h-screen bg-orange-300">
       {/* home */}
       <div
-        className="bg-green-200 h-full flex bg-cover bg-center text-center pr-3 pl-3 md:pl-20 md:pr-40 lg:pl-40 lg:pr-80"
+        className="bg-green-200 h-full flex bg-cover bg-center text-center pr-3 pl-3 sm:pl-20 sm:pr-20 md:left-20 md:pr-40 lg:pl-40 lg:pr-80"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="flex flex-col items-center ">
+        <div className="flex flex-col items-center  ">
           <img
             src="/andres5.png"
             //voltear imagen
             style={{ transform: "scalex(-1)" }}
-            className=" w-40 rounded-full pt-10 pb-5 sm:w-60 md:pt-40 md:left-40"
+            className=" w-40 rounded-full pt-10 pb-5 sm:w-60 sm:pt-40  md:pt-40 md:left-40"
           />
-          <h1 className="text-[20px] text-white font-semibold ">
+          <h1 className="text-[20px] text-white font-semibold lg:text-[40px]">
             Andres Yepez
           </h1>
-          <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[30px] font-bold pb-3">
+          <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[30px] font-bold pb-3 lg:text-[50px]">
             Sofware develoment
           </h2>
-          <p className="text-white pb-5">
+          <p className="text-white pb-5 lg:text-[20px] lg:pb-10">
             Passionate and highly motivated in the field of software
             development, knowledge of Html, Css, JavaScript, TypeScript, React,
             Next.js, Node.js, Mongo, Express, SQL,Tailwind, Git, GitHub and
             Agile Methodologies.
           </p>
-          <div className="text-white flex flex-wrap text-center justify-center gap-5  md:flex-row">
+          <div className="text-white flex flex-wrap text-center justify-center gap-5  md:flex-row lg:justify-end">
             <Link
               href="/nav"
-              className="bg-blue-500 w-30 py-1 px-3 rounded-xl hover:bg-blue-400"
+              className="bg-blue-500 w-40 py-1 px-3 rounded-xl hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5"
             >
               Studies
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-30 py-1 px-3 rounded-xl hover:bg-blue-400"
+              className="bg-blue-500 w-40 py-1 px-3 rounded-xl hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5"
             >
               Experience
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-30 rounded-xl py-1 px-3 hover:bg-blue-400"
+              className="bg-blue-500 w-40 rounded-xl py-1 px-3 hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5"
             >
               Projects
             </Link>
             <Link
               href="/"
-              className="bg-blue-500 w-30 py-1 px-3 rounded-xl hover:bg-blue-400"
+              className="bg-blue-500 w-40 py-1 px-3 rounded-xl hover:bg-blue-400 lg:w-60 lg:py-3 lg:px-5" 
             >
               Contact 
             </Link>
