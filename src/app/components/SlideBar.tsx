@@ -12,7 +12,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <>
-          Home<FaHome size={30} className="cursor-pointer " /> 
+          <FaHome size={30} className="cursor-pointer " /> Home
         </>
       ),
       href: "https://linkedin.com/in/ricardo-andrés-yépez-valenzuela-661915263",
@@ -21,7 +21,7 @@ const SlideBar = () => {
       id: 2,
       child: (
         <>
-          Studies <FaBookOpenReader size={30}  className="cursor-pointer "/>
+           <FaBookOpenReader size={30}  className="cursor-pointer "/> Studies
         </>
       ),
       href: "https://github.com/andresquito",
@@ -30,7 +30,7 @@ const SlideBar = () => {
       id: 3,
       child: (
         <>
-          Experience <FaTools size={30} className="cursor-pointer " />
+           <FaTools size={30} className="cursor-pointer " />Experience
         </>
       ),
       href: "mailto:ricardoandres1@hotmail.com",
@@ -39,7 +39,7 @@ const SlideBar = () => {
       id: 4,
       child: (
         <>
-          Projects <FaCode size={30} />
+           <FaCode size={30} />Projects
         </>
       ),
       href: "/",
@@ -50,7 +50,7 @@ const SlideBar = () => {
       id: 5,
       child: (
         <>
-          Contact <MdMarkEmailUnread  size={30} />
+           <MdMarkEmailUnread  size={30} />Contact
         </>
       ),
       href: "/",
@@ -60,7 +60,7 @@ const SlideBar = () => {
   ];
 
   return (
-    <div className="flex right-0  items-left  justify-evenly fixed top-2 p-4 flex-col">
+    <div className="flex left-5  items-left  justify-evenly fixed top-2 p-4 flex-col">
       {links.map(({ id, child, href, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
