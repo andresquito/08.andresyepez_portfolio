@@ -12,7 +12,7 @@ export default function Home() {
           style={{ backgroundImage: "url(/main-bg.webp)" }}
         >
           <div className="flex flex-col ">
-            <div className="pl-80">
+            <div className="pl-40">
             <img
               src="/andres5.png"
               //voltear imagen
