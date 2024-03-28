@@ -13,12 +13,12 @@ export default function Home() {
         >
           <div className="flex flex-col ">
             <div className="pl-40">
-            <img
-              src="/andres5.png"
-              //voltear imagen
-              // style={{ transform: "scalex(-1)" }}
-              className=" w-40  rounded-full pt-40 pb-5 sm:w-60 sm:pt-40  md:pt-40 md:left-40"
-            />
+              <img
+                src="/andres5.png"
+                //voltear imagen
+                // style={{ transform: "scalex(-1)" }}
+                className=" w-40  rounded-full pt-40 pb-5 sm:w-60 sm:pt-40  md:pt-40 md:left-40"
+              />
             </div>
 
             <h1 className="text-[20px] text-white font-semibold lg:text-[40px]">
@@ -28,12 +28,10 @@ export default function Home() {
               Sofware developer
             </h2>
             <p className="text-white pb-5  lg:text-[20px] lg:pb-10">
-              Passionate and highly motivated in the field of software
-              development, knowledge of Html, Css, JavaScript, TypeScript,
-              React, Next.js, Node.js, Mongo, Express, SQL,Tailwind, Git, GitHub
-              and Agile Methodologies.
+              Motivated in the field of software development. Knowledge of Html,
+              CSS, JavaScript, TypeScript, React, Next.js, SQL, Tailwind, Git,
+              GitHub.
             </p>
-
           </div>
         </div>
       </main>
