@@ -4,7 +4,7 @@ import SlideBar from "./components/SlideBar";
 export default function Home() {
   return (
     <>
-      <SlideBar />
+      
       <main className="h-screen ">
         {/* home */}
         <div
