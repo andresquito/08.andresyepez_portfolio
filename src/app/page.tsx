@@ -11,7 +11,7 @@ export default function Home() {
           className="h-full flex text-right bg-cover bg-center  pr-10 pl-10 sm:items-center sm:pl-20 sm:pr-20 md:left-20 md:pr-40 lg:pl-40 lg:pr-80 lg:text-center "
           style={{ backgroundImage: "url(/main-bg.webp)" }}
         >
-          <div className="flex flex-col  w-full items-center ">
+          <div className="flex flex-col  w-full items-end xl:items-center md:items-center sm:items-center  bg-orange-500 ">
 
               <img
                 src="/andres5.png"
