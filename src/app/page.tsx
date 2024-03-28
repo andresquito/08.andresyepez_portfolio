@@ -34,6 +34,16 @@ export default function Home() {
             </p>
           </div>
         </div>
+        {/*image*/}  
+        <div>
+          <img 
+          src="/stars.png" 
+          alt="stars" 
+          height={300}
+          width={300}
+          className="absolute top-20 right-0 z-[10]"
+          />          
+        </div>    
       </main>
     </>
   );
