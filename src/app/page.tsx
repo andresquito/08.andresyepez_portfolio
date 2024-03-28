@@ -19,7 +19,7 @@ export default function Home() {
               />
 
             <h1 className="text-[20px] text-white font-semibold lg:text-[40px] ">
-              Andrés Yépe
+              Andrés Yepez
             </h1>
             <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[30px] font-bold pb-5 lg:text-[50px]">
               Sofware developer

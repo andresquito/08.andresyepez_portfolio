@@ -1,12 +1,22 @@
+"use client"
 import React from "react";
 import { FaCode, FaTools } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { FaBookOpenReader } from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
+import { useRouter } from "next/navigation";
 
 // import resumePDF from "../components/resume.pdf"
 
 const SlideBar = () => {
+  
+  const router = useRouter()
+
+  const handleClick = () => {
+    router.push("/skills")
+  }
+  
+
   const links = [
     {
       id: 1,
@@ -33,7 +43,8 @@ const SlideBar = () => {
            <FaTools size={25} className="cursor-pointer " />Skills
         </>
       ),
-      href: "/",
+     
+      
     },
     {
       id: 4,
@@ -64,7 +75,8 @@ const SlideBar = () => {
       {links.map(({ id, child, href, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
-            href={href}
+            onClick={handleClick}     
+            //href={href}         
             className="flex justify-between items-center w-full
          text-white gap-3"
             download={download}
