@@ -30,10 +30,10 @@ const SlideBar = () => {
       id: 3,
       child: (
         <>
-           <FaTools size={25} className="cursor-pointer " />Experience
+           <FaTools size={25} className="cursor-pointer " />Skills
         </>
       ),
-      href: "mailto:ricardoandres1@hotmail.com",
+      href: "/skills",
     },
     {
       id: 4,

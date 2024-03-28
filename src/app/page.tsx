@@ -1,10 +1,8 @@
 "use client";
-import SlideBar from "./components/SlideBar";
 
 export default function Home() {
   return (
-    <>
-      
+    <>     
       <main className="h-screen ">
         {/* home */}
         <div
@@ -20,7 +18,6 @@ export default function Home() {
                 className=" w-40  rounded-full pt-40 pb-5 sm:w-60 sm:pt-0  md:pt-0 md:left-40 lg:pt-0 "
               />
 
-
             <h1 className="text-[20px] text-white font-semibold lg:text-[40px] ">
               Andrés Yépez
             </h1>
@@ -33,7 +30,6 @@ export default function Home() {
               GitHub.
             </p>
           </div>
-
         </div>
         {/*image*/}  
         <div>

@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         <SlideBar />
-        <main className="bg-blue-300 w-full h-[700px]">{children}</main>
+        <main className="w-full h-[700px]">{children}</main>
       </body>
     </html>
   );
