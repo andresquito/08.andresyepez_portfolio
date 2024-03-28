@@ -60,7 +60,7 @@ const SlideBar = () => {
   ];
 
   return (
-    <div className="flex left-5  items-start   justify-evenly fixed top-5 p-4 flex-col ">
+    <div className="flex left-5  items-start  gap-2 justify-evenly fixed top-5 p-4 flex-col ">
       {links.map(({ id, child, href, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a

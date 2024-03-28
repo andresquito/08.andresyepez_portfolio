@@ -28,7 +28,7 @@ export default function Home() {
               Sofware developer
             </h2>
             <p className="text-white pb-5  lg:text-[20px] lg:pb-10">
-              Motivated in software development. <br/> I work with HTML, CSS,
+              Motivated in software development. <br/><br/> I work with HTML, CSS,
               JavaScript, TypeScript, React, Next.js, SQL, Tailwind, Git and
               GitHub.
             </p>
