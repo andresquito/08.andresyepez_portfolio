@@ -24,11 +24,11 @@ export default function Home() {
             <h1 className="text-[20px] text-white font-semibold lg:text-[40px]">
               Andrés Yépez
             </h1>
-            <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[30px] font-bold pb-3 lg:text-[50px]">
+            <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[30px] font-bold pb-5 lg:text-[50px]">
               Sofware developer
             </h2>
             <p className="text-white pb-5  lg:text-[20px] lg:pb-10">
-              Motivated in software development. <br/><br/> I work with HTML, CSS,
+              Motivated in software development. <br/>I work with HTML, CSS,
               JavaScript, TypeScript, React, Next.js, SQL, Tailwind, Git and
               GitHub.
             </p>
