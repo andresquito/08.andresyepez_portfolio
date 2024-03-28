@@ -33,7 +33,7 @@ const SlideBar = () => {
            <FaTools size={25} className="cursor-pointer " />Skills
         </>
       ),
-      href: "/skills",
+      href: "/",
     },
     {
       id: 4,
