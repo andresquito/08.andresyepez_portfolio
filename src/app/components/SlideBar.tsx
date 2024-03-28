@@ -12,7 +12,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <>
-          <FaHome size={30} className="cursor-pointer" /> Home
+          <FaHome size={25} className="cursor-pointer" /> Home
         </>
       ),
       href: "/",
@@ -21,7 +21,7 @@ const SlideBar = () => {
       id: 2,
       child: (
         <>
-           <FaBookOpenReader size={30}  className="cursor-pointer "/> Studies
+           <FaBookOpenReader size={25}  className="cursor-pointer "/> Studies
         </>
       ),
       href: "https://github.com/andresquito",
@@ -30,7 +30,7 @@ const SlideBar = () => {
       id: 3,
       child: (
         <>
-           <FaTools size={30} className="cursor-pointer " />Experience
+           <FaTools size={25} className="cursor-pointer " />Experience
         </>
       ),
       href: "mailto:ricardoandres1@hotmail.com",
@@ -39,7 +39,7 @@ const SlideBar = () => {
       id: 4,
       child: (
         <>
-           <FaCode size={30} />Projects
+           <FaCode size={25} />Projects
         </>
       ),
       href: "/",
@@ -50,7 +50,7 @@ const SlideBar = () => {
       id: 5,
       child: (
         <>
-           <MdMarkEmailUnread  size={30} />Contact
+           <MdMarkEmailUnread  size={25} />Contact
         </>
       ),
       href: "/",
