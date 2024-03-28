@@ -24,7 +24,7 @@ const SlideBar = () => {
            <FaBookOpenReader size={25}  className="cursor-pointer "/> Studies
         </>
       ),
-      href: "https://github.com/andresquito",
+      href: "/studies",
     },
     {
       id: 3,
@@ -68,7 +68,7 @@ const SlideBar = () => {
             className="flex justify-between items-center w-full
          text-white gap-3"
             download={download}
-            target="_blank"
+            target="_self"
             rel="noreferrer"
           >
             {child}
