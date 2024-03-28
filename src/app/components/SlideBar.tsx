@@ -9,15 +9,25 @@ import { useRouter } from "next/navigation";
 // import resumePDF from "../components/resume.pdf"
 
 const SlideBar = () => {
-  
+
   const router = useRouter()
 
-  const handleClick = () => {
-    router.push("/skills")
-  }
+  const handleClick = (des) => {
+
+      router.push(des)
+
+    }
+
+
+
+    
+  
+
+
   
 
   const links = [
+    
     {
       id: 1,
       child: (
@@ -25,7 +35,7 @@ const SlideBar = () => {
           <FaHome size={25} className="cursor-pointer" /> Home
         </>
       ),
-      href: "/",
+      des: "/",
     },
     {
       id: 2,
@@ -34,7 +44,7 @@ const SlideBar = () => {
            <FaBookOpenReader size={25}  className="cursor-pointer "/> Studies
         </>
       ),
-      href: "/studies",
+      des: "/studies",
     },
     {
       id: 3,
@@ -43,7 +53,7 @@ const SlideBar = () => {
            <FaTools size={25} className="cursor-pointer " />Skills
         </>
       ),
-     
+      des: "/skills"    
       
     },
     {
@@ -53,7 +63,7 @@ const SlideBar = () => {
            <FaCode size={25} />Projects
         </>
       ),
-      href: "/",
+      des: "/",
       style: "rounded-br-md",
       download: true,
     },
@@ -64,7 +74,7 @@ const SlideBar = () => {
            <MdMarkEmailUnread  size={25} />Contact
         </>
       ),
-      href: "/",
+      des: "/",
       style: "rounded-br-md",
       download: true,
     },
@@ -72,11 +82,12 @@ const SlideBar = () => {
 
   return (
     <div className="flex left-5 w-40 items-center gap-2 justify-evenly fixed top-5 p-4 flex-col ">
-      {links.map(({ id, child, href, style, download }) => (
+      {links.map(({ id, child, href, des, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
-            onClick={handleClick}     
-            //href={href}         
+              
+            //onClick={handleClick} 
+            onClick={() => handleClick(des)}        
             className="flex justify-between items-center w-full
          text-white gap-3"
             download={download}
