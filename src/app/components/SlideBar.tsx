@@ -12,7 +12,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <>
-          <FaHome size={30} className="cursor-pointer " /> Home
+          <FaHome size={30} className="cursor-pointer" /> Home
         </>
       ),
       href: "https://linkedin.com/in/ricardo-andrés-yépez-valenzuela-661915263",
@@ -60,13 +60,13 @@ const SlideBar = () => {
   ];
 
   return (
-    <div className="flex left-5  items-left  justify-evenly fixed top-2 p-4 flex-col">
+    <div className="flex left-5  items-start   justify-evenly fixed top-2 p-4 flex-col ">
       {links.map(({ id, child, href, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
             href={href}
             className="flex justify-between items-center w-full
-         text-white"
+         text-white gap-3"
             download={download}
             target="_blank"
             rel="noreferrer"

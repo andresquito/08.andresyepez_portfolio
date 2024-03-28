@@ -17,7 +17,7 @@ export default function Home() {
               src="/andres5.png"
               //voltear imagen
               // style={{ transform: "scalex(-1)" }}
-              className=" w-40  rounded-full pt-20 pb-5 sm:w-60 sm:pt-40  md:pt-40 md:left-40"
+              className=" w-40  rounded-full pt-40 pb-5 sm:w-60 sm:pt-40  md:pt-40 md:left-40"
             />
             </div>
 
@@ -27,7 +27,7 @@ export default function Home() {
             <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-50 text-[30px] font-bold pb-3 lg:text-[50px]">
               Sofware developer
             </h2>
-            <p className="text-white pb-5 lg:text-[20px] lg:pb-10">
+            <p className="text-white pb-5  lg:text-[20px] lg:pb-10">
               Passionate and highly motivated in the field of software
               development, knowledge of Html, Css, JavaScript, TypeScript,
               React, Next.js, Node.js, Mongo, Express, SQL,Tailwind, Git, GitHub
