@@ -1,6 +1,8 @@
 import React from "react";
-import { AiFillHome , AiFillFolderOpen, AiTwotonePhone,AiFillTool, AiFillRead } from "react-icons/ai";
-import { FcSupport,FcReading, FcCommandLine, FcCellPhone, FcDepartment  } from "react-icons/fc";
+import { FaCode, FaTools } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { FaBookOpenReader } from "react-icons/fa6";
+import { MdMarkEmailUnread } from "react-icons/md";
 
 // import resumePDF from "../components/resume.pdf"
 
@@ -10,7 +12,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <>
-          Home<FcDepartment size={30} className="cursor-pointer " /> 
+          Home<FaHome size={30} className="cursor-pointer " /> 
         </>
       ),
       href: "https://linkedin.com/in/ricardo-andrés-yépez-valenzuela-661915263",
@@ -19,7 +21,7 @@ const SlideBar = () => {
       id: 2,
       child: (
         <>
-          Studies <FcReading size={30}  className="cursor-pointer "/>
+          Studies <FaBookOpenReader size={30}  className="cursor-pointer "/>
         </>
       ),
       href: "https://github.com/andresquito",
@@ -28,7 +30,7 @@ const SlideBar = () => {
       id: 3,
       child: (
         <>
-          Experience <FcSupport size={30} className="cursor-pointer " />
+          Experience <FaTools size={30} className="cursor-pointer " />
         </>
       ),
       href: "mailto:ricardoandres1@hotmail.com",
@@ -37,7 +39,7 @@ const SlideBar = () => {
       id: 4,
       child: (
         <>
-          Projects <FcCommandLine size={30} />
+          Projects <FaCode size={30} />
         </>
       ),
       href: "/",
@@ -48,7 +50,7 @@ const SlideBar = () => {
       id: 5,
       child: (
         <>
-          Contact <FcCellPhone  size={30} />
+          Contact <MdMarkEmailUnread  size={30} />
         </>
       ),
       href: "/",
