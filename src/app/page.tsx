@@ -28,8 +28,8 @@ export default function Home() {
               Sofware developer
             </h2>
             <p className="text-white pb-5  lg:text-[20px] lg:pb-10">
-              Motivated in the field of software development. Knowledge of Html,
-              CSS, JavaScript, TypeScript, React, Next.js, SQL, Tailwind, Git,
+              Motivated in software development. <br/> I work with HTML, CSS,
+              JavaScript, TypeScript, React, Next.js, SQL, Tailwind, Git and
               GitHub.
             </p>
           </div>
