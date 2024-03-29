@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
         {/*image*/}  
-        <div>
+        {/* <div>
           <img 
           src="/stars.png" 
           alt="stars" 
@@ -40,7 +40,7 @@ export default function Home() {
           width={300}
           className="absolute top-20 right-0 z-[10] "
           />          
-        </div>    
+        </div>     */}
       </main>
     </>
   );
