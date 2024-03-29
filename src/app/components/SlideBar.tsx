@@ -22,7 +22,7 @@ const SlideBar = () => {
       id: 1,
       child: (
         <div onClick={() => router.push("/")} className="cursor-pointe flex gap-5 ">
-          <FaHome size={25} className="cursor-pointer" /> Home
+          <FaHome size={25}/> Home
         </div>
       ),
       href: "/",
@@ -31,7 +31,7 @@ const SlideBar = () => {
       id: 2,
       child: (
         <div onClick={() => router.push("/studies")} className="cursor-pointe flex gap-5 ">
-          <FaBookOpenReader size={25} className="cursor-pointer " /> Studies
+          <FaBookOpenReader size={25} /> Studies
         </div>
       ),
       href: "/studies",
@@ -40,7 +40,7 @@ const SlideBar = () => {
       id: 3,
       child: (
         <div onClick={() => router.push("/skills")} className="cursor-pointe flex gap-5 ">
-          <FaTools size={25} className="r " />
+          <FaTools size={25}  />
           Skills
         </div>
       ),
