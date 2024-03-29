@@ -13,7 +13,7 @@ const page = () => {
     style={{background: "url(/bg-2.jpg)"}}    
     className="  h-screen w-screen flex items-center justify-center bg-cover bg-center"
     >
-      <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
+      <div className="flex flex-col gap-0 sm:gap-20 max-w-[80%] text-center items-center">
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-white font-semibold text-[50px]">
             Skills {" "}  
