@@ -13,9 +13,9 @@ const page = () => {
     style={{background: "url(/bg-2.jpg)"}}    
     className="  h-screen w-screen flex items-center justify-center bg-cover bg-center"
     >
-      <div className="flex flex-col gap-0 sm:gap-20 max-w-[80%] text-center items-center">
+      <div className="flex flex-col gap-0 sm:gap-20 max-w-[80%] text-right sm:text-center items-center">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="text-white font-semibold text-[50px]">
+          <h1 className="text-white font-semibold text-[30px] sm:text-[50px]">
             Skills {" "}  
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">{" "} & {" "}</span> Technologists </h1>
           <p className="text-gray-400 text-[20px]">Using the latest tech this world has to offer </p>          
