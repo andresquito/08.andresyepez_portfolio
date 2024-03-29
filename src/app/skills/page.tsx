@@ -22,7 +22,7 @@ const page = () => {
             </span>{" "}
             Technologists{" "}
           </h1>
-          <p className="text-gray-400 text-[10px] sm:text-[20px] pb-5">
+          <p className="text-gray-400 text-[15px] sm:text-[20px] pb-5">
             Using the latest tech this world has to offer{" "}
           </p>
         </div>
@@ -36,7 +36,7 @@ const page = () => {
           }}
           speed={5000}
           modules={[Autoplay]}
-          className="max-w-[80%] pb-5"
+          className="max-w-[100%] pb-10"
         >
           {SkillData.map((skill, index) => (
             <SwiperSlide key={index}>
@@ -62,9 +62,9 @@ const page = () => {
             disableOnInteraction: false,
             reverseDirection: true,
           }}
-          speed={5000}
+          speed={10000}
           modules={[Autoplay]}
-          className="max-w-[20%]"
+          className="max-w-[100%]"
         >
           {Soon.map((skill, index) => (
             <SwiperSlide key={index}>
