@@ -20,7 +20,7 @@ const SlideBar = () => {
           <FaHome size={25}/> Home
         </div>
       ),
-      href: "/",
+      //href: "/",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const SlideBar = () => {
           <FaBookOpenReader size={25} /> Studies
         </div>
       ),
-      href: "/",
+      //href: "/",
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ const SlideBar = () => {
           Projects
         </div>
       ),
-      href: "/",
+      //href: "/",
       style: "rounded-br-md",
       download: true,
     },
@@ -60,18 +60,19 @@ const SlideBar = () => {
           Contact
         </div>
       ),
-      href: "/",
+      // href: "/",
       style: "rounded-br-md",
       download: true,
     },
   ];
 
   return (
-    <div className="flex left-5 w-40 items-center gap-2 justify-evenly fixed top-5 p-4 flex-col ">
-      {links.map(({ id, child, href, style, download }) => (
+    <div className="flex left-0 w-40 items-stars gap-0 justify-evenly fixed top-0 p-2 flex-col ">
+      {links.map(({ id, child,  style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
-            // href="/"        
+            // href="/"  
+            //onClick={handleClik}      
             className="flex justify-between items-center w-full text-white gap-3"
             download={download}
             target="_self"
