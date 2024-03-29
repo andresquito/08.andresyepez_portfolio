@@ -11,6 +11,12 @@ import { useRouter } from "next/navigation";
 const SlideBar = () => {
   const router = useRouter();
 
+  const handleClick = ()=>{
+    router.push("/skills")
+}
+
+  
+
   const links = [
     {
       id: 1,
@@ -70,6 +76,7 @@ const SlideBar = () => {
       {links.map(({ id, child, href, style, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4 "}>
           <a
+            onClick={handleClick}
             className="flex justify-between items-center w-full text-white gap-3"
             download={download}
             target="_self"
