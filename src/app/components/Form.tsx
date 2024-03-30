@@ -8,7 +8,7 @@ const Form = () => {
     action="https://getform.io/f/jbwxgkwa"
     method='POST'
     className=''>
-        <h2 className='text-2xl text-white font-bold mb-5'>Contact me</h2>
+        <h2 className='text-2xl text-white font-bold mb-5 text-center'>Contact me</h2>
         <div className='mb-3'>
             <input 
             type="text"
