@@ -12,9 +12,9 @@ export default function Home() {
           <div className="flex flex-col  w-full items-end xl:items-center md:items-center sm:items-center  ">
 
               <img
-                src="/andres5.png"
+                src="/andres1.png"
                 //voltear imagen
-                // style={{ transform: "scalex(-1)" }}
+                style={{ transform: "scalex(-1)" }}
                 className=" w-40  rounded-full pt-40 pb-5 sm:w-60 sm:pt-0  md:pt-0 md:left-40 lg:pt-0 "
               />
 
