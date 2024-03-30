@@ -48,8 +48,8 @@ const ProjectCard = ({ image, title, text, githubLink, deployLink }: Props) => {
           >
             <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]" />
             <div className="flex flex-col gap-20 py-3 z-[30]">
-              <h1 className="text-whote text-2xl font-semibold">{title}</h1>
-              <p className="text-gray-200 text-[20px]">{text}</p>
+              <h1 className="text-whote text-[20px] md:text-2xl font-semibold">{title}</h1>
+              <p className="text-gray-200 text-[0px] md:text-[20px]">{text}</p>
             </div>
           </div>
         </motion.div>
