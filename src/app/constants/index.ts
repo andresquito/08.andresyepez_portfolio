@@ -62,30 +62,28 @@ export const SkillData = [
   //   width: 80,
   //   height: 80,
   // },
-
 ];
 
 export const Soon = [
-     {
-     name: "Node js",
-     Image: "/node-js.png",
+  {
+    name: "Node js",
+    Image: "/node-js.png",
     width: 80,
-     height: 80,
-   },
-   {
-     name: "Mongo db",
-     Image: "/mongodb.png",
-     width: 40,
-     height: 40,
-   },
-   {
+    height: 80,
+  },
+  {
+    name: "Mongo db",
+    Image: "/mongodb.png",
+    width: 40,
+    height: 40,
+  },
+  {
     name: "Express",
     Image: "/express.png",
     width: 200,
     height: 200,
-   }
-
-]
+  },
+];
 
 export const Socials = [
   {
@@ -100,29 +98,34 @@ export const Socials = [
     name: "Instagram",
     src: "/discord.svg",
   },
-  
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Emoji Selection",
+    text: "This application searches and copies emojics",
+    src: "/emoji.png",
+    githubLink: "https://github.com/andresquito/02.Emoji-Selection.git",
+    deployLink: "https://andresquito.github.io/02.Emoji-Selection/",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Color Selection",
+    text: "This application searches and copies the hexadecimal code of the color of your choice",
+    src: "/colors.png",
+    githubLink: "https://github.com/andresquito/01.Color-Selection.git",
+    deployLink: "https://andresquito.github.io/01.Color-Selection/",
   },
-  {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
-  },
-  {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
-  },
+   {
+     title: "Marketplace",
+     text: "Marketplace Online UI with  React, Js, Vite, Talwind",
+     src: "/marketplace.png",
+     githubLink: "https://github.com/andresquito/04.marketplace-online.git",
+     deployLink: "https://andresquito.github.io/04.marketplace-online/",
+   },
+  // {
+  //   title: "Matrix themed Website",
+  //   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  //   src: "/Matrix.png",
+  // },
 ];
 
 export const NavLinks = [
