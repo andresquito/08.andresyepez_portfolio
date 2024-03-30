@@ -50,12 +50,12 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  // {
-  //   name: "Framer Motion",
-  //   Image: "/framer.png",
-  //   width: 80,
-  //   height: 80,
-  // },
+   {
+     name: "Framer Motion",
+     Image: "/framer.png",
+     width: 80,
+     height: 80,
+   },
   // {
   //   name: "Stripe Payment",
   //   Image: "/stripe.webp",
