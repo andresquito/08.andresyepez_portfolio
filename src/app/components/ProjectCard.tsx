@@ -24,7 +24,7 @@ const ProjectCard = ({ image, title, text, githubLink, deployLink }: Props) => {
     <div className="">
       <div
         onClick={handleFlip}
-        className="w-[250px] h-[150px] md:w-[450px] md:h-[280px] rounded-md cursor-pointer"
+        className="w-[200px] h-[100px] md:w-[450px] md:h-[280px] rounded-md cursor-pointer"
       >
         <motion.div
           className="flip-card-inner w-full h-full"
